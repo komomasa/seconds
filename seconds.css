@@ -1,0 +1,26 @@
+html {
+    background: #bf90cc;
+}
+body {
+    background: #FFFFFF;
+    color: #000001;
+    width: 600px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 100px 300px;
+}
+button {
+    width: 600px;
+    margin-top: 30px;
+    padding: 5px 20px;
+    background: #c8d627;
+}
+input {
+    height: 20px;
+}
+.smalltext {
+    font-size: 10px;
+}
+#result-area p {
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>〇〇まであと何秒！？</title>
+    <link rel="stylesheet" href="seconds.css">
+</head>
+<body>
+    <h1>いろんな期限を秒数でお知らせします</h1>
+    <p>あなたの名前を教えてください</p>
+    <input type="text" id="user-name" size="40" maxlength="20">
+    <p>期限の名称を入力してください（例：エイプリルフール）</p>
+    <input type="text" id="time-name" size="40" maxlength="20">
+    <p>その日時を入力してください（例:2019年4月1日）</p>
+    <input type="text" id="year" size="5">年<input type="text" id="month" size="3">月<input type="text" id="day" size="3">日
+<br>
+    <button id="seconds">換算する</button>
+    <p id="times"></p>
+    <div id="result-area"></div>
+    <p class="smalltext">※上記は現在時刻から、指定された日付の00時00分までの秒数を表しています。</p>
+    <div id="tweet-area">
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <script src="seconds.js"></script>
+</body>
+</html>
