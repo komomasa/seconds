@@ -61,12 +61,12 @@
         removeAllChildren(tweetDivided);
         const anchor = document.createElement('a');
         const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
-            + encodeURIComponent('〇〇まであと何秒')
+            + encodeURIComponent('あの日まであと何秒')
             + '&ref_src=twsrc%5Etfw';
         anchor.setAttribute('href', hrefValue);
         anchor.className = 'twitter-hashtag-button';
         anchor.setAttribute('data-text', result + 'https://komomasa.github.io/seconds/seconds.html');
-        anchor.innerText = '#〇〇まであと何秒 をツイートする';
+        anchor.innerText = '#あの日まであと何秒 をツイートする';
         tweetDivided.appendChild(anchor);
 
         twttr.widgets.load();
