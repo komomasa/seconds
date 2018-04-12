@@ -65,7 +65,7 @@
             + '&ref_src=twsrc%5Etfw';
         anchor.setAttribute('href', hrefValue);
         anchor.className = 'twitter-hashtag-button';
-        anchor.setAttribute('data-text', result + '#〇〇まであと何秒' + 'https://komomasa.github.io/seconds/seconds.html');
+        anchor.setAttribute('data-text', result + 'https://komomasa.github.io/seconds/seconds.html');
         anchor.innerText = '#〇〇まであと何秒 をツイートする';
         tweetDivided.appendChild(anchor);
 
